@@ -41,6 +41,7 @@ function MovieLogger() {
 
     return (
         <>
+        <h4>This portion of the app only works while running locally with the server running.</h4>
         <h2>Write in movie information. </h2>
           <form action="">
               <input type="text" placeholder="Title" 
