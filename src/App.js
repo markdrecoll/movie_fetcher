@@ -18,7 +18,7 @@ function App() {
           </Header>
           <Content style={{ padding: '0 50px' }}>
             <Routes>
-              <Route path="/" element={<LandingPage />} />
+              <Route path="/movie_fetcher" element={<LandingPage />} />
               <Route path="/movielogger" element={<MovieLogger />} />
               <Route path="/popularmovies" element={<PopularMovies />} />
             </Routes>

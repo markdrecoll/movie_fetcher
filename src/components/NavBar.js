@@ -8,7 +8,7 @@ class NavBar extends React.Component{
         <>
             <Menu theme="dark" mode="horizontal">
                 <Menu.Item key="0">
-                    <Link to="/">Home</Link>
+                    <Link to="/movie_fetcher">Home</Link>
                 </Menu.Item>
                 <Menu.Item key="1">
                     <Link to="/popularmovies">Random Popular Movies</Link>
